@@ -15,7 +15,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: windowScene)
-        window?.rootViewController = AnnaViewController()
+        window?.rootViewController = anna2ViewController()
+        window?.backgroundColor = .green
+        
+        window?.rootViewController = UINavigationController(rootViewController: anna2ViewController())
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
