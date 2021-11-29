@@ -13,6 +13,8 @@
 		958E2048275524A7000EE6A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958E2046275524A7000EE6A3 /* LaunchScreen.storyboard */; };
 		958E205027552586000EE6A3 /* AnnaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958E204F27552586000EE6A3 /* AnnaViewController.swift */; };
 		958E2052275525FC000EE6A3 /* AnnaStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958E2051275525FC000EE6A3 /* AnnaStoryboard.storyboard */; };
+		958E205827553403000EE6A3 /* vovaStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958E205727553403000EE6A3 /* vovaStoryboard.storyboard */; };
+		958E205A27553410000EE6A3 /* vovaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958E205927553410000EE6A3 /* vovaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		958E2049275524A7000EE6A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		958E204F27552586000EE6A3 /* AnnaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnaViewController.swift; sourceTree = "<group>"; };
 		958E2051275525FC000EE6A3 /* AnnaStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AnnaStoryboard.storyboard; sourceTree = "<group>"; };
+		958E205727553403000EE6A3 /* vovaStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = vovaStoryboard.storyboard; sourceTree = "<group>"; };
+		958E205927553410000EE6A3 /* vovaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vovaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				958E203B275524A5000EE6A3 /* AppDelegate.swift */,
 				958E203D275524A5000EE6A3 /* SceneDelegate.swift */,
+				958E205727553403000EE6A3 /* vovaStoryboard.storyboard */,
+				958E205927553410000EE6A3 /* vovaViewController.swift */,
 				958E204F27552586000EE6A3 /* AnnaViewController.swift */,
 				958E2051275525FC000EE6A3 /* AnnaStoryboard.storyboard */,
 				958E2044275524A7000EE6A3 /* Assets.xcassets */,
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				958E2048275524A7000EE6A3 /* LaunchScreen.storyboard in Resources */,
+				958E205827553403000EE6A3 /* vovaStoryboard.storyboard in Resources */,
 				958E2045275524A7000EE6A3 /* Assets.xcassets in Resources */,
 				958E2052275525FC000EE6A3 /* AnnaStoryboard.storyboard in Resources */,
 			);
@@ -140,6 +147,7 @@
 			files = (
 				958E203C275524A5000EE6A3 /* AppDelegate.swift in Sources */,
 				958E205027552586000EE6A3 /* AnnaViewController.swift in Sources */,
+				958E205A27553410000EE6A3 /* vovaViewController.swift in Sources */,
 				958E203E275524A5000EE6A3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
